@@ -12,20 +12,7 @@
 
 Este proyecto consiste en el desarrollo de un modelo de análisis o recomendación musical utilizando aprendizaje automático, con base en un conjunto de datos musicales (por ejemplo, datos de Spotify).
 
-El trabajo se desarrolla colaborativamente en el archivo principal `Proyecto.ipynb`, dentro de un entorno compartido de GitHub y controlado mediante ramas por integrante.
-
----
-
-## 👥 Integrantes del grupo
-
-| Nombre                      | Usuario de GitHub       | Rol Principal                    |
-|----------------------------|--------------------------|----------------------------------|
-| Óscar Javier Sánchez Ruiz  | `@OsCrazo`               | Coordinación, desarrollo de funciones |
-| Ana María Pérez            | _(pendiente)_            | Análisis exploratorio            |
-| Juan Sebastián Gómez       | _(pendiente)_            | Modelado predictivo              |
-| Camilo Rodríguez           | _(pendiente)_            | Evaluación y consolidación       |
-
-> ✏️ Nota: aún faltan los usuarios de GitHub de algunos integrantes. Se actualizará próximamente.
+El trabajo se desarrolla colaborativamente en el archivo principal `S3P1_proyectoSpotify.ipynb`, dentro de un entorno compartido de GitHub y controlado mediante ramas por integrante.
 
 ---
 
@@ -34,46 +21,62 @@ El trabajo se desarrolla colaborativamente en el archivo principal `Proyecto.ipy
 ```
 ProyectoSpotify/
 │
-├── Proyecto.ipynb       # Jupyter Notebook principal
-├── data/                # (Opcional) Archivos de datos
-├── images/              # Gráficos y visualizaciones
-├── README.md            # Este documento
-└── .gitignore           # Archivos que no se deben subir
+├── S3P1_proyectoSpotify.ipynb # Notebook principal del proyecto
+├── data/                      # Archivos de entrada
+├── images/                    # Visualizaciones generadas
+├── README.md                  # Este archivo
+└── .gitignore                 # Exclusión de archivos innecesarios
+```
+---
+
+## 🤝 Guía de colaboración para el equipo
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/GrupoODJ/ProyectoSpotify.git
+cd ProyectoSpotify
 ```
 
----
+### 2. Crear una rama con tu nombre
 
-## 🚀 ¿Cómo ejecutar este proyecto?
+```bash
+git checkout -b tu-nombre
+git push origin tu-nombre
+```
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/GrupoODJ/ProyectoSpotify.git
-   ```
+Ejemplo:
+```bash
+git checkout -b camilo-desarrollo
+```
 
-2. Cambia a tu rama de trabajo:
-   ```bash
-   git checkout tu-rama
-   ```
+### 3. Hacer cambios y subir
 
-3. Inicia Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
+```bash
+git add .
+git commit -m "Descripción clara de los cambios"
+git push origin tu-nombre
+```
 
-4. Abre y trabaja en `Proyecto.ipynb`.
+### 4. Crear un Pull Request en GitHub
 
----
+- Ve a la pestaña **"Pull Requests"**.
+- Haz clic en **"New Pull Request"**.
+- Asegúrate que diga: `base: main ← compare: tu-rama`
+- Agrega título y descripción, luego haz clic en **"Create Pull Request"**.
 
-## 🧪 Flujo de trabajo en equipo
+### 5. Revisión y merge
 
-- Cada persona trabaja en su propia **rama** (`git checkout -b nombre`).
-- El notebook principal solo debe ser editado por **una persona a la vez** para evitar conflictos.
-- Al terminar una tarea, se puede hacer un **Pull Request** para integrarla a la rama `main`.
+- El equipo puede comentar y aprobar.
+- Al aprobar, haz clic en **"Merge pull request"**.
+- Luego, elimina la rama si ya no se necesita.
 
----
+### 🧠 Buenas prácticas
 
-## 📚 Referencias
-
-- Dataset: [Enlace al dataset si aplica]
-- Documentación del curso
-- Recursos utilizados (papers, artículos, etc.)
+- Trabajar solo en tu rama.
+- Sincroniza tu rama con `main` antes de subir:
+  ```bash
+  git pull origin main
+  ```
+- Mantén mensajes de commit claros.
+- No trabajes sobre `main` directamente.
