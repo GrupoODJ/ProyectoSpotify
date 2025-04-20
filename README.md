@@ -17,6 +17,25 @@ El trabajo se desarrolla colaborativamente en el archivo principal `S3P1_proyect
 
 ---
 
+Nombre | Usuario GitHub | Rol
+Óscar Javier Sánchez Ruiz | OsCrazo | Coordinador / Integración
+Camilo Rodríguez | camirod-ml | Preprocesamiento y visualización
+Laura Fernández | laufer-nlp | Modelado y evaluación
+Andrés Torres | andrestorres-dev | Análisis exploratorio y métricas
+
+
+## 👥 Integrantes del grupo
+
+| Nombre                      | Usuario de GitHub       | Rol Principal                    |
+|----------------------------|--------------------------|----------------------------------|
+| Óscar Javier Sánchez Ruiz  | `@OsCrazo`               | Coordinación, desarrollo de funciones |
+| Ana María Pérez            | _(pendiente)_            | Análisis exploratorio            |
+| Juan Sebastián Gómez       | _(pendiente)_            | Modelado predictivo              |
+| Camilo Rodríguez           | _(pendiente)_            | Evaluación y consolidación       |
+
+> ✏️ Nota: aún faltan los usuarios de GitHub de algunos integrantes. Se actualizará próximamente.
+---
+
 ## 📁 Estructura del Repositorio
 
 ```
