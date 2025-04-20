@@ -1,0 +1,39 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datos y archivos pesados
+*.csv
+*.xlsx
+*.zip
+*.json
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entornos virtuales
+.env
+.venv/
+env/
+venv/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpeta de salida del proyecto (si se usa)
+output/
