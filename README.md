@@ -1,8 +1,9 @@
-# Proyecto Final - Análisis Musical con Machine Learning 🎧
+# Proyecto 1 - Predicción de popularidad de canciones 🎧
 
 **Universidad:** Universidad de los Andes  
-**Curso:** [Nombre del curso o programa, ej. MIAD]  
-**Semestre:** 2025-1  
+**Programa:** Maestría en Inteligencia Analítica de Datos - MIAD  
+**Curso:** Machine Learning y Programación de Lenguaje Natural  
+**Semestre:** 2025-1, ciclo 2  
 **Organización GitHub:** [GrupoODJ](https://github.com/GrupoODJ)  
 **Repositorio:** [ProyectoSpotify](https://github.com/GrupoODJ/ProyectoSpotify)
 
@@ -10,7 +11,7 @@
 
 ## 🎯 Descripción
 
-Este proyecto consiste en el desarrollo de un modelo de análisis o recomendación musical utilizando aprendizaje automático, con base en un conjunto de datos musicales (por ejemplo, datos de Spotify).
+En este proyecto trabajamos con una base de datos de pistas de Spotify que abarca una amplia gama de 125 géneros musicales diferentes. Cada pista está asociada con diversas características de audio. Los datos están en formato CSV, lo cual permite cargarlos rápidamente de manera tabular.
 
 El trabajo se desarrolla colaborativamente en el archivo principal `S3P1_proyectoSpotify.ipynb`, dentro de un entorno compartido de GitHub y controlado mediante ramas por integrante.
 
